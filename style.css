@@ -1,5 +1,15 @@
+html,
 body {
+	box-sizing: border-box;
     margin: auto;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: #f1f1f1;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 header {
@@ -9,6 +19,8 @@ header {
     background-size: cover;
     padding-top: 1.5em;
     position: relative;
+    width: 100%;
+    right: 0;
     text-align: center;
 }
 
@@ -66,7 +78,7 @@ header {
     text-align: center;
     padding: 14px 16px 15px 15px;
     text-decoration: none;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Serif', serif;
     font-size: 17px;
 }
 
@@ -83,6 +95,7 @@ header {
 .content {
     padding-left: 1.5em;
     padding-right: 1.5em;
+    color: #5c727a;
 }
 
 .game-img {
@@ -99,13 +112,13 @@ header {
 }
 
 footer {
+    clear: both;
     position: relative;
-    left: 0;
     bottom: 0;
     width: 100%;
     background-color: #2e3c41;
     color: #ced4d8;
     padding: 1.5em;
     text-align: center;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Serif', serif;
 }
