@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>News - IGDb - Internet Game Database</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <style>
+        .row {
+            font-family: "Noto Sans", sans-serif;
+            padding-bottom: 20px;
+            background-color: #f1f1f1;
+            color: #5c727a;
+        }
+
+        .row h5 {
+            font-family: "Noto Serif", serif;
+        }
+
+        .card {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 70%;
+            text-align: center;
+        }
+
+        .card a {
+            color: #cb2e5a;
+            text-decoration: none;
+        }
+
+        .article-img {
+            width: 500px;
+            height: 250px;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-background"></div>
+        <div class="site-branding">
+            <h1 class="site-title">
+                <a href="https://victoryxh.github.io/comp20/index.html" rel="home">IGDb</a>
+            </h1>
+            <h2 class="site-description">
+                The Front Page of Gamers.
+            </h2>
+        </div>
+        <div class="nav-menu">
+            <a href="index.html">Home</a>
+            <a class="active" href="news.html">News</a>
+            <a href="games.html">Games</a>
+            <a href="about.html">About</a>
+        </div>
+    </header>
+
+    <div class="row">
+        <div class="card">
+            <a href="">
+                <h2>Apple Arcade Hands-On Impressions: It Reminds Us of Xbox Live Arcade</h2>
+            </a>
+            <h5>Posted on Sept 16, 2019</h5>
+            <div><img class="article-img" src="appleArcade.jpg">
+            </div>
+        </div>
+        <div class="card">
+            <a href="">
+                <h2>Classic Dragon Quest Games Are Coming to Nintendo Switch</h2>
+            </a>
+            <h5>Posted on Sept 16, 2019</h5>
+            <div><img class="article-img" src="dragon.png">
+            </div>
+        </div>
+        <div class="card">
+            <a href="">
+                <h2>8 Essential Tips and Tricks for Surviving Blasphemous</h2>
+            </a>
+            <h5>Posted on Sept 15, 2019</h5>
+            <div><img class="article-img" src="blas.png">
+            </div>
+        </div>
+    </div>
+
+    <footer style="margin-top: 20px">
+        <p>Copyright © 2000-2019 IGDb Inc.</p>
+    </footer>
+</body>
+
+</html>

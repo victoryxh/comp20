@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Games - IGDb - Internet Game Database</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <style>
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .flex-container>div {
+            height: 700px;
+            width: 25%;
+            background-color: #fff;
+            margin: 20px;
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+            line-height: 75px;
+        }
+
+        .flex-img {
+            width: 250px;
+            height: 405px;
+        }
+
+        .game-name {
+            font-family: "Noto Sans", sans-serif;
+            font-size: 25px;
+            font-weight: bold;
+            color: #cb2e5a;
+            text-decoration: none;
+        }
+
+        .release-date {
+            font-family: "Noto Serif", serif;
+            font-size: 20px;
+            color: #5c727a;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-background"></div>
+        <div class="site-branding">
+            <h1 class="site-title">
+                <a href="https://victoryxh.github.io/comp20/index.html" rel="home">IGDb</a>
+            </h1>
+            <h2 class="site-description">
+                The Front Page of Gamers.
+            </h2>
+        </div>
+        <div class="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="news.html">News</a>
+            <a class="active" href="games.html">Games</a>
+            <a href="about.html">About</a>
+        </div>
+    </header>
+
+    <div class="flex-container">
+        <div><img class="flex-img" src="botw.jpg"><br>
+            <a class="game-name" href="">The Legend of Zelda: Breath of the Wild</a>
+            <p class="release-date">Released on Mar 3, 2017</p>
+        </div>
+        <div><img class="flex-img" src="superSmash.jpg"><br>
+            <a class="game-name" href="">Super Smash Bros. Ultimate</a>
+            <p class="release-date">Released on Dec 7, 2018</p></div>
+        <div><img class="flex-img" src="celeste.png"><br>
+            <a class="game-name" href="">Celeste</a>
+            <p class="release-date">Released on Jan 25, 2018</p></div>
+        <div><img class="flex-img" src="bayonetta.png"><br>
+            <a class="game-name" href="">Bayonetta 2</a>
+            <p class="release-date">Released on Feb 16, 2018</p></div>
+        <div><img class="flex-img" src="marioKart.jpg"><br>
+            <a class="game-name" href="">Mario Kart 8 Deluxe</a>
+            <p class="release-date">Released on Apr 28, 2018</p></div>
+        <div><img class="flex-img" src="shovel.jpg"><br>
+            <a class="game-name" href="">Shovel Knight: Treasure Trove</a>
+            <p class="release-date">Released on Mar 3, 2017</p></div>
+    </div>
+
+    <footer>
+        <p>Copyright © 2000-2019 IGDb Inc.</p>
+    </footer>
+</body>
